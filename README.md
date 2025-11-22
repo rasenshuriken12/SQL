@@ -31,33 +31,35 @@ CREATE DATABASE company;
 
 Creates a new database named 'company' where you can store tables and data.
 
-Lists all databases
+- Lists all databases
 
 ```sql
 SHOW DATABASES;
 ```
 
-Example:
+*Example:*
 
 ```sql
 SHOW DATABASES;
 ```
 
-Explanation: Displays all databases available on the MySQL server including system and user databases.
+*Explanation:*
 
-Selects a database to work on
+Displays all databases available on the MySQL server including system and user databases.
+
+- Selects a database to work on
 
 ```sql
 USE database_name;
 ```
 
-Example:
+*Example:*
 
 ```sql
 USE company;
 ```
 
-Explanation: Switches to the specified database. All subsequent operations will be performed on this database.
+*Explanation:* Switches to the specified database. All subsequent operations will be performed on this database.
 
 Creates a new table
 
