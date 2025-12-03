@@ -33,7 +33,7 @@ COURSE (Entity)
     ├── Duration 
     └── Credits
 
-ENROLLS_IN (Relationship) between STUDENT and COURSE
+STUDENT ENROLLS_IN (Relationship) COURSE
 ```
 
 
