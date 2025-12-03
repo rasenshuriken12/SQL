@@ -49,6 +49,25 @@ STUDENT ENROLLS_IN (Relationship) COURSE
 
 - 
 
+Key Features ADDED in EER:
+
+1) Specialization & Generalization
+
+The "IS-A" Relationship
+
+```mermaid
+graph TD
+    A[PERSON] --> B[EMPLOYEE]
+    A --> C[STUDENT]
+    
+    B --> D[PROFESSOR]
+    B --> E[STAFF]
+    
+    D --> F[ASSISTANT PROF]
+    D --> G[ASSOCIATE PROF]
+    D --> H[FULL PROF]
+```
+
 ---
 
 Full MySQL Command Arsenal ⚔️
